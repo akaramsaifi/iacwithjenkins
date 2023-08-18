@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "my-s3aug2023bucket" {
+resource "aws_s3_bucket" "my-s3aug2023bucket1" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
 
